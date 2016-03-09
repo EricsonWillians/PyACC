@@ -220,14 +220,6 @@ class App(threading.Thread):
 				self.console.insert(tk.END, "Player successfully created.\n")
 			else:
 				self.console.insert(tk.END, "The player name already exists, try another one.\n")
-			"""
-			with connection.cursor() as cursor:
-				# Read a single record
-				sql = "SELECT * FROM accounts where id = 1"
-				cursor.execute(sql)
-				result = cursor.fetchone()
-				print(result)
-			"""
 		except Exception as e:
 			self.console.insert(tk.END, "Error: {err}\n".format(err=str(e)))
 		finally:
