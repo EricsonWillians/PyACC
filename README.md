@@ -1,5 +1,5 @@
 # PyACC
-An opensource OpenTibia account creator for MySQL.
+An open-source OpenTibia account creator for MySQL.
 
 ![Screenshot](http://s11.postimg.org/limlyq6qb/Py_ACC.png "PyACC")
 
